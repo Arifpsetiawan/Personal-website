@@ -1,0 +1,188 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1c47;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0.5rem 4rem;
+    background-color: #1a1c47;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 2.5rem;
+}
+
+.nav-brand {
+    font-size: 1.25rem;
+}
+
+.nav-menu,
+.nav-brand {
+    padding: 0.5rem 0.75rem;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu:hover {
+    border-bottom: 1px solid white;
+    text-size-adjust: auto;
+}
+
+a.active,
+.nav-brand span,
+.job-profile span,
+section#about .container span,
+.card span {
+    color: #ff4758;
+}
+
+/* profile */
+
+section#profile .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 38.5rem;
+    color: white;
+}
+
+.img-thumbnail {
+    width: 12.5rem;
+    border-radius: 50%;
+}
+
+.name-title {
+    font-size: 3rem;
+}
+
+.name-title,
+.job-profile {
+    margin: 0.5rem;
+}
+
+/* about */
+
+.job-profile,
+section#about p {
+    font-weight: 100;
+}
+
+section#about .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 39rem;
+    padding: 3rem 10rem 0 10rem;
+    background-color: #171a3f;
+    color: white;
+}
+
+.about-title {
+    font-size: 2rem;
+}
+
+/* awards */
+
+section#awards .container {
+    padding: 4rem 0 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.awards-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.item-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 10rem 0 10rem;
+}
+
+.item {
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    width: 15rem;
+    min-height: 23rem;
+    padding: 1rem;
+    background-color: #171a3f;
+    color: white;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.img-card {
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+}
+
+.card p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+/* footer */
+
+footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer .container {
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0.5rem 4rem;
+    background-color: #171a3f;
+}
+
+h6 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    color: white;
+    font-weight: 300;
+}
+
+.love {
+    width: 1rem;
+}
